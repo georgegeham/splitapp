@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Bill from "./Bill";
 import Friends from "./Friends";
 import "./tailwind.css";
@@ -32,7 +32,6 @@ function App() {
   const [adding, setAdding] = useState<boolean>(false);
   const [curr, setCurr] = useState<one | null>(null);
   const splitHandler = (id: number, value: number) => {
-    const index = list.findIndex((friend) => friend.id === id);
     setList((prev) =>
       prev.map((friend) =>
         friend.id === id ? { ...friend, value: friend.value + value } : friend
