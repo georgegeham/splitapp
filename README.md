@@ -1,7 +1,7 @@
 # Split Bill With Your Friend
 
 A simple and interactive React application to split bills between you and your friends. Enter your expense, select who paid, and the app calculates who owes whom — instantly!
-![Screenshot][./public/splitApp.png]
+![Screenshot][./splitApp.png]
 
 ---
 
